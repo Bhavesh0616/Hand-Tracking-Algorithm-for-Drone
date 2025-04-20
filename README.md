@@ -8,7 +8,30 @@ This project enables **hands-free control of drones** using real-time **hand ges
 
 ## 📁 Directory Structure
 
-. ├── app.py ├── gesture_to_command.py ├── hand_coordinates.txt ├── keypoint_classification.ipynb ├── point_history_classification.ipynb │ ├── model/ │ ├── keypoint_classifier/ │ │ ├── keypoint.csv │ │ ├── keypoint_classifier.hdf5 │ │ ├── keypoint_classifier.tflite │ │ ├── keypoint_classifier.py │ │ └── keypoint_classifier_label.csv │ │ │ └── point_history_classifier/ │ ├── point_history.csv │ ├── point_history_classifier.hdf5 │ ├── point_history_classifier.tflite │ ├── point_history_classifier.py │ └── point_history_classifier_label.csv │ └── utils/ └── cvfpscalc.py
+.
+├── app.py
+├── gesture_to_command.py
+├── hand_coordinates.txt
+├── keypoint_classification.ipynb
+├── point_history_classification.ipynb
+│
+├── model/
+│   ├── keypoint_classifier/
+│   │   ├── keypoint.csv
+│   │   ├── keypoint_classifier.hdf5
+│   │   ├── keypoint_classifier.tflite
+│   │   ├── keypoint_classifier.py
+│   │   └── keypoint_classifier_label.csv
+│   │
+│   └── point_history_classifier/
+│       ├── point_history.csv
+│       ├── point_history_classifier.hdf5
+│       ├── point_history_classifier.tflite
+│       ├── point_history_classifier.py
+│       └── point_history_classifier_label.csv
+│
+└── utils/
+    └── cvfpscalc.py
 
 
 ---
@@ -100,29 +123,14 @@ Interactive robotics education
 
 🎬 Demo
 
-![Gesture Control Demo](./demo.gif")
+![Gesture Control Demo](./demo.gif)
 
 ![Gesture Control Demo](./demo_1.gif)
 
-👨‍💻 Contributors
-You – Core Developer, System Architect
 
 📄 License
 This project is licensed under the MIT License.
 
 🤝 Support
 If you find this project helpful, feel free to give it a ⭐ on GitHub, open issues for bugs, or fork it for your own use!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want:
-- A demo badge or GitHub Actions CI badge added
-- A quick `requirements.txt` to go with it
-- Help embedding demo images/GIFs
-
-I can also generate a `LICENSE` file and `.gitignore` if you're publishing it as a complete repo.
 
